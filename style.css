@@ -1,0 +1,123 @@
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 25px; /* Reducido al 25% */
+    max-width: 1000px; /* Reducción proporcional */
+    text-align: center;
+    padding: 20px; /* Reducido al 25% */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1.display-5 {
+    font-size: 2.25rem; /* Reducido al 25% */
+}
+
+p.lead {
+    font-size: 1.125rem; /* Reducido al 25% */
+}
+
+/* .container h1 {
+    font-size: 1rem; 
+} */
+
+.container .img-container {
+    width: 80%; /* Reducido al 25% */
+}
+
+.container .boton {
+    width: 80%; /* Reducido al 25% */
+    height: 37.5px; /* Reducido al 25% */
+    font-size: 1rem; /* Reducido al 25% */
+}
+
+.btn-custom {
+    font-size: 0.3em; /* Reducido al 25% */
+    width: 11.25%; /* Reducido al 25% */
+    margin: 2.5px; /* Reducido al 25% */
+}
+
+.img-thumbnail {
+    max-width: 100%;
+}
+
+.swal-large {
+    width: 375px !important; /* Reducido al 25% */
+    font-size: 0.875em; /* Reducido al 25% */
+}
+
+.display-6 {
+    margin-bottom: 37.5px; /* Reducido al 25% */
+}
+
+h2.display-6 {
+    font-size: 2.5rem; /* Reducido al 25% */
+}
+
+.page-2 img {
+    width: 375px; /* Reducido al 25% */
+}
+
+.page-2 h5 {
+    font-size: 0.875rem; /* Reducido al 25% */
+    font-weight: 400;
+    padding-left: 25px; /* Reducido al 25% */
+    padding-right: 25px; /* Reducido al 25% */
+}
+
+.div_mb-5 {
+    margin-top: 50px; /* Reducido al 25% */
+}
+
+.div_mb-5 h3 {
+    font-size: 2rem; /* Reducido al 25% */
+    margin-bottom: 12.5px; /* Reducido al 25% */
+    font-weight: 300;
+}
+
+.div_mb-5 button {
+    font-size: 1.25rem; /* Reducido al 25% */
+}
+
+.centro{
+    align-items: center;
+    margin-right: 25px;
+}
+
+#plan-options li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style-type: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#plan-options li:hover {
+    background-color: #f0f0f0;
+}
+
+#plan-options li.selected {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-color: #0056b3;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+}
